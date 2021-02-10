@@ -8,7 +8,21 @@ namespace Task3
     {
         public static IEnumerable<IEnumerable<string>> OnlyBigCollections(List<IEnumerable<string>> toFilter)
         {
-            Func<IEnumerable<string>, bool> predicate = list => ((ICollection<string>)list)?.Count > 5;
+            Func<IEnumerable<string>, bool> predicate = list =>
+            {
+                byte counter = 0;
+                foreach (var item in list)
+                {
+                    counter++;
+                    if (counter > 5)
+                    {
+                        return true;
+                    }
+                }
+
+                return false;
+            };
+            
             return toFilter.Where(predicate);
         }
     }
