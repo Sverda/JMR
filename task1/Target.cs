@@ -1,4 +1,4 @@
-namespace DemoTarget
+namespace Task1.DemoTarget
 {
     public class PersonWithEmail
     {

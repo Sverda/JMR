@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DemoSource
+namespace Task1.DemoSource
 {
     public class Person
     {

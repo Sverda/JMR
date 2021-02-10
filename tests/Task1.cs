@@ -1,6 +1,6 @@
-using DemoSource;
-using DemoTarget;
-using DemoImplementation;
+using Task1.DemoSource;
+using Task1.DemoTarget;
+using Task1.DemoImplementation;
 using NUnit.Framework;
 
 namespace tests

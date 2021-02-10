@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using DemoSource;
-using DemoTarget;
+using Task1.DemoSource;
+using Task1.DemoTarget;
 
-namespace DemoImplementation
+namespace Task1.DemoImplementation
 {
     public class Solution
     {
